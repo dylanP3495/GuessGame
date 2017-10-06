@@ -16,11 +16,6 @@ public class GuessGame
         int rand = (int) ((num * 10) +1);
         System.out.println(rand);
         System.out.println("What is your guess?");
-<<<<<<< HEAD
-        int count = 0;
-        int guess = -1;
-=======
->>>>>>> fb52a68726a9b621053f1c44d90cc7f308e4fbf0
         for (int i = 1; i < 5; i+=1){
             if (guess < rand) {
                 System.out.println(" Your guess was too low!");
