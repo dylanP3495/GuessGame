@@ -9,16 +9,13 @@ import java.lang.Math;
 public class GuessGame
 {
     public static void loop(){
+        int count = 0;
+        int guess = -1;
         Scanner scanner = new Scanner(System.in);
         double num = Math.random();
         int rand = (int) ((num * 10) +1);
         System.out.println(rand);
         System.out.println("What is your guess?");
-        int count = 0;
-        int guess = -1;
-        while (guess != rand && count){
-
-        }	
         for (int i = 1; i < 5; i+=1){
             if (guess < rand) {
                 System.out.println(" Your guess was too low!");
