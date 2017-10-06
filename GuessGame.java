@@ -16,9 +16,6 @@ public class GuessGame
         System.out.println("What is your guess?");
         int count = 0;
         int guess = -1;
-        while (guess != rand && count){
-
-        }	
         for (int i = 1; i < 5; i+=1){
             if (guess < rand) {
                 System.out.println(" Your guess was too low!");
@@ -26,6 +23,7 @@ public class GuessGame
                 System.out.println(" Your guess was too high!");
             }else{
                 System.out.println(" You got it!");
+                System.exit(0);
             }
         }
         System.out.println(" You suck at this game...");
